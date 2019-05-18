@@ -1,8 +1,21 @@
 <template>
   <div>
+    <AppHeader></AppHeader>/*追加*/
     <nuxt />
   </div>
 </template>
+
+//ここから↓
+<script>
+import AppHeader from '@/components/AppHeader.vue'
+
+export default {
+  components: {
+    AppHeader
+  }
+}
+</script>
+//ここまで↑を追加
 
 <style>
 html {
