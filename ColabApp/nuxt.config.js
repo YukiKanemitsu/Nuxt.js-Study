@@ -29,8 +29,20 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
-
+  plugins: [
+    '~/plugins/i18n.js' //追加
+  ],
+  //ここからを追加
+  vendor: [
+    'vue-i18n'  
+  ],
+  router: {
+    middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/about', '/en', '/en/about']
+  } ,
+  //ここまでを追加
   /*
    ** Nuxt.js modules
    */
