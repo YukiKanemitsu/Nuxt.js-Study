@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppHeader></AppHeader>/*追加*/
+    <AppHeader></AppHeader>
     <nuxt />
   </div>
 </template>
