@@ -1,6 +1,6 @@
 # ColabApp
 
-> My top-notch Nuxt.js project
+> My majestic Nuxt.js project
 
 ## Build Setup
 
