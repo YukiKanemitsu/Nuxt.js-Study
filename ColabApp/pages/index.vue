@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        ColabApp
+        {{ $t('home.title') }} 
       </h1>
       <h2 class="subtitle">
-        My majestic Nuxt.js project
+        {{ $t('home.introduction') }} 
       </h2>
       <div class="links">
         <a
